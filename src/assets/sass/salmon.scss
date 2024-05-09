@@ -46,3 +46,59 @@
         }
     }
 }
+
+.cta-text {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content
+    : center;
+}
+
+.text-white {
+    color: white;
+}
+
+@media (max-width: 960px) {
+
+    .service-container {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .service-description {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .service-description p, .ul-dots li {
+        padding: 0 20px;
+        padding-right: 0px;
+    }
+
+
+
+    .service-cta {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-text {
+        align-items: center;
+    }
+
+    .image-container1 {
+        display: none;
+    }
+
+    .service-container .image-group picture img {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .service-container .image-group picture img {
+        width: 200px;
+    }
+}
